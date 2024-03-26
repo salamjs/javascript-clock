@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Digital";
+  src: url("./digital-bold.TTF") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+}
+
+.clock {
+  display: flex;
+  font-weight: bold;
+  font-family: "Digital";
+  font-size: 60px;
+  color: green;
+}
